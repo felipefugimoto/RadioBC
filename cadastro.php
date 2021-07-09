@@ -13,53 +13,55 @@
     <title>Promoções - Radio Camboriu FM </title>
   </head>
   <body>
-    <h2 class="titulo-h2">Cadastros das Promoções</h2>
-    <div class="container container-md cadastro-form">
-      <form action="cadastros.php" method="post">
-        <div class="row">
-        
-            <div class="row g-2">
-            <div class="col-md">
-              <div class=" input-group mb-3">
-              <span class="input-group-text" id="basic-addon1">Promoção</span>
-              <input type="text" class="form-control" placeholder="Nome da Promoção" aria-label="Username" aria-describedby="basic-addon1">
-              </div>
-            </div>
-            <div class="col-md">
-              <div class=" input-group mb-3">
-              <span class="input-group-text" id="basic-addon1">Descrição</span>
-              <input type="text" class="form-control" placeholder="Descreva sobre a promoção" aria-label="Username" aria-describedby="basic-addon1">
-              </div>
-            </div>
-            <!---->
-            <div class="row">
+    <div class="container container-cad">
+      <h2 class="titulo-h2">Cadastros das Promoções</h2>
+      <div class="container container-md cadastro-form">
+        <form action="cadastros.php" method="post">
+          <div class="row">
+          
               <div class="row g-2">
-                <div class="col-md">
-                  <div class=" input-group mb-3">
-                  <span class="input-group-text" id="basic-addon1">Começo do Promoção</span>
-                  <input type="date" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
-                  </div>
+              <div class="col-md">
+                <div class=" input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Promoção</span>
+                <input type="text" class="form-control" placeholder="Nome da Promoção" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
-                <div class="col-md">
-                  <div class=" input-group mb-3">
-                  <span class="input-group-text" id="basic-addon1">Fim da Promoção</span>
-                  <input type="date" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
-                  </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="row g-2">
-                <div class="col-md">
-                  <div class=" input-group mb-3">
-                      <input type="file" class="form-control" placeholder="JPG, JPEG e PNG"  aria-label="Username" aria-describedby="basic-addon1">
-                  </div>
+              <div class="col-md">
+                <div class=" input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Descrição</span>
+                <input type="text" class="form-control" placeholder="Descreva sobre a promoção" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
-                
-            </div>
-                      
+              </div>
+              <!---->
+              <div class="row">
+                <div class="row g-2">
+                  <div class="col-md">
+                    <div class=" input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Começo do Promoção</span>
+                    <input type="date" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                  </div>
+                  <div class="col-md">
+                    <div class=" input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Fim da Promoção</span>
+                    <input type="date" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="row g-2">
+                  <div class="col-md">
+                    <div class=" input-group mb-3">
+                        <input type="file" class="form-control" placeholder="JPG, JPEG e PNG"  aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                  </div>
+                  
+              </div>
+                        
+          </div>
+          <button type="button" class="btn btn-outline-success btn-prom">Gerar Promoção</button>
+        </form>
         </div>
-        <button type="button" class="btn btn-outline-success btn-prom">Gerar Promoção</button>
-      </form>
       </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
