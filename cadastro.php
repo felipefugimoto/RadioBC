@@ -59,7 +59,17 @@
               </div>
                         
           </div>
-          <button type="button" class="btn btn-outline-success btn-prom">Gerar Promoção</button>
+          <div class="row g-3">
+            <div class="col d-flex justify-content-end">
+              <button type="button" class="btn btn-danger ">Voltar</button>
+            </div>
+            <div class="col d-flex justify-content-start">
+               <button type="button" class="btn btn-success ">Cadastrar</button>
+            </div>
+          </div>
+
+         
+          
         </form>
         </div>
       </div>
